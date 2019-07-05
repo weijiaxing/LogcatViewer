@@ -36,7 +36,7 @@ allprojects {
 ##### Step 2. Add a gradle dependency
 ```
 dependencies {
-	implementation 'com.github.weijiaxing:LogcatViewer:1.0.1'
+	implementation 'com.github.weijiaxing:LogcatViewer:1.0.2'
 }
 ```
 
