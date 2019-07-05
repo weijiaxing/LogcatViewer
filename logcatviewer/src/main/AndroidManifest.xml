@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.weijiaxing.logviewer">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application>
+        <activity
+            android:name="com.weijiaxing.logviewer.LogcatActivity"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
+
+        <activity
+            android:name="com.weijiaxing.logviewer.LogcatDetailActivity"
+            android:label="Log detail"
+            android:theme="@style/Theme.AppCompat"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.weijiaxing.logviewer.LogcatActivity"/>
+        </activity>
+
+        <service android:name="com.weijiaxing.logviewer.FloatingLogcatService"/>
+
+    </application>
+
+</manifest>

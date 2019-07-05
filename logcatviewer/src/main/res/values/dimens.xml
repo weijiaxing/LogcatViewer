@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="floating_toolbar_height">48dp</dimen>
+</resources>

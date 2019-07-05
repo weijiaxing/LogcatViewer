@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:autoLink="all"
+        android:textIsSelectable="true"
+        tools:text="Time: 2017-10-22 00:34:39.055
+Pid: 25343
+Tid: 3452
+Priority: Debug
+Tag:ss-module
+
+Content:
+TCP AP 26.26.26.1/49948 > 240.1.0.3/443 seq 1007 ack 4241 data 31 win 353 uid -1 FIN_WAIT1 loc 4241 rem 1007 acked 4241 data while local closed"
+        />
+
+</ScrollView>

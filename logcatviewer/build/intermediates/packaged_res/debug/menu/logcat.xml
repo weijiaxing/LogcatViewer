@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/clear"
+          android:title="Clear all"
+          />
+
+    <item android:id="@+id/export"
+          android:title="Export..."
+          />
+
+    <item android:id="@+id/floating"
+          android:title="Float"
+          />
+
+</menu>

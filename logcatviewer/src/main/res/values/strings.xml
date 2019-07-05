@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LogViewer</string>
+    <string name="create_log_file_failed">Create log file failed</string>
+    <string name="not_support_on_this_device">Not supported on this device</string>
+    <string-array name="logcat_spinner">
+        <item>Verbose</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warning</item>
+        <item>Error</item>
+        <item>Fatal</item>
+    </string-array>
+
+
+    <string-array name="logcat_spinner2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

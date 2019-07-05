@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:2:11-45
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:4:22-75
+application
+ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:6:5-25:19
+activity#com.weijiaxing.logviewer.LogcatActivity
+ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:7:9-11:15
+	android:label
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:9:13-29
+	android:theme
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:10:13-63
+	android:name
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:8:13-67
+activity#com.weijiaxing.logviewer.LogcatDetailActivity
+ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:13:9-21:20
+	android:label
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:15:13-39
+	android:theme
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:16:13-51
+	android:name
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:14:13-73
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:18:13-20:74
+	android:value
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:20:17-72
+	android:name
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:19:17-63
+service#com.weijiaxing.logviewer.FloatingLogcatService
+ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:23:9-81
+	android:name
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml:23:18-79
+uses-sdk
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+		ADDED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/weijiaxing/workother/MyOpenSource/LogcatViewer/logcatviewer/src/main/AndroidManifest.xml
