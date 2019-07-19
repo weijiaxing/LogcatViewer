@@ -6,8 +6,8 @@ android {
         applicationId "com.weijiaxing.logcatviewer"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 2
-        versionName "1.0.2"
+        versionCode 3
+        versionName "1.0.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -25,5 +25,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    compile project(path: ':logcatviewer')
+
+    implementation 'com.squareup.okhttp3:okhttp:3.12.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //implementation 'com.github.weijiaxing:LogcatViewer:1.0.3' or implementation project(path: ':logcatviewer')
+
+    implementation project(path: ':logcatviewer')
+
 }

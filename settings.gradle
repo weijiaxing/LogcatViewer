@@ -1,1 +1,2 @@
-include ':app', ':logcatviewer'
+include ':app'
+include ':logcatviewer'

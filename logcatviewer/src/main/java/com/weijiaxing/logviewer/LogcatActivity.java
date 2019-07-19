@@ -34,7 +34,7 @@ public class LogcatActivity extends AppCompatActivity implements View.OnClickLis
     }
 
 
-    public static void launch2(Context context) {
+    public static void launchNewTask(Context context) {
 
         Intent intent = new Intent(context, LogcatActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

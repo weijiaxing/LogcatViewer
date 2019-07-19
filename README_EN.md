@@ -1,10 +1,10 @@
-# LogcatViewer [![jitpack](https://jitpack.io/v/weijiaxing/LogcatViewer.svg)](https://jitpack.io/#weijiaxing/LogcatViewer) [![](https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg)](https://github.com/weijiaxing/LogcatViewer/blob/master/LICENSE) [![](https://img.shields.io/badge/Author-weijiaxing-7AD6FD.svg)](https://github.com/weijiaxing)
-
-<img src="https://github.com/weijiaxing/LogcatViewer/blob/master/screenshots/FloatLog.gif" width="220" align="right" hspace="20">
+# LogcatViewer [![jitpack](https://jitpack.io/v/weijiaxing/LogcatViewer.svg)](https://jitpack.io/#weijiaxing/LogcatViewer) [![](https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg)](https://github.com/weijiaxing/LogcatViewer/blob/master/LICENSE) 
 
 ### [README of Chinese](https://github.com/weijiaxing/LogcatViewer/blob/master/README.md)
 
-LogcatViewer is an Android screen window to print the log log debug library
+LogcatViewer is an Android floating window log output library! Get the logcat output log of the application and float it in the upper layer of the application in the form of a window, support floating window zooming, dragging, support log file filtering, clear, save and share. Customizable interface remote dynamic control LogcatViewer floating log window display and shutdown, test phase (convenient for testers and developers to locate anomalies), release online phase (dynamic control of specified account user LogcatViewer floating log window display and shutdown, convenient for abnormal models User feedback issues, developers adapt to specific models). Description: Dynamically control the specified account user LogcatViewer floating log window display and shutdown, integrate the library and refer to the remoteControlLogviewer() method in the sample code UseLogcatControlActivity class, isOpenLogcatViewer.equals(isOpenLogcatViewerCode)&& accountId.equals(loginAccountId), background dynamic control LogcatViewer control The parameters returned by the interface network request isOpenLogcatViewer, accountId and isOpenLogcatViewerCode, and loginAccountId are compared to determine whether the LogcatViewer floating log window of the user or the specified account user is displayed and closed.
+
+### Introduction to LogcatViewer function
 
  * Log output filtering
  * Floating window drag
@@ -12,14 +12,9 @@ LogcatViewer is an Android screen window to print the log log debug library
  * Share save log log text
  * Log log page zooms in and out
  
-
-Program QR code to scan for download or Google Play download and install:
-
-<img src="https://www.pgyer.com/app/qrcode/P7Tt" width="180">
-
-<a href="https://play.google.com/store/apps/details?id=com.zytmcq.zy" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
-
+### GooglePlay download or QR code scan code download Apk
+<a href="https://play.google.com/store/apps/details?id=com.zytmcq.zy" target="_blank"> 
+<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90" /> <img src="https://www.pgyer.com/app/qrcode/P7Tt" height="90" /> </a>
 
 
 ### Usage
@@ -36,7 +31,7 @@ allprojects {
 ##### Step 2. Add a gradle dependency
 ```
 dependencies {
-	implementation 'com.github.weijiaxing:LogcatViewer:1.0.2'
+	implementation 'com.github.weijiaxing:LogcatViewer:1.0.3'
 }
 ```
 
@@ -69,10 +64,16 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 
+
 ## Screenshots
 
-<img src="screenshots/FullScreenLog.gif" width="25%" /> 
-<img src="screenshots/LogTextShare.gif" width="25%" />
+### Sample application
+<img src="screenshots/LogcatViewer01.png" width="220" hspace="20">  <img src="screenshots/LogcatViewer02.png" width="220" hspace="20">  <img src="screenshots/LogcatViewer03.png" width="220" hspace="20">
+
+
+### Project practical application
+<img src="screenshots/FloatLog.gif" width="220" hspace="20">  <img src="screenshots/FullScreenLog.gif" width="220" hspace="20">  <img src="screenshots/LogTextShare.gif" width="220" hspace="20">
+
 
 
 ### Thanks
@@ -83,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 ## License
 
 ```
-Copyright (C) weijiaxing, xinwainet  Inc. Open source codes for study only.
+Copyright (C) weijiaxing  Inc. Open source codes for study only.
 Do not use for commercial purpose.
 
 Licensed under the Apache License, Version 2.0 (the "License");

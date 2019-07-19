@@ -320,7 +320,7 @@ public class FloatingLogcatService extends Service implements View.OnClickListen
             wm.removeView(mRoot);
             stopReadLogcat();
 
-            LogcatActivity.launch2(this);
+            LogcatActivity.launchNewTask(this);
         }
 
     }
